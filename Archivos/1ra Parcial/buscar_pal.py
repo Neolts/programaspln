@@ -1,5 +1,12 @@
-archivo_abierto=open("D:\\Programas\\Documentos\\Texto1.txt")
-texto=archivo_abierto.read()
+
+import os 
+import re
+
+os.system("pause")
+carpeta_nombre="Documentos\\"
+archivo_nombre="Texto1.txt"
+
+txt=("D:\\programaspln\\Archivos\\1ra Parcial\\Documentos\\Texto_1_1.txt")
 expresion_regular=re.compile(r"(el)?(los)? artículos?")
 resultados_busqueda=expresion_regular.finditer(texto)
 for resultado in resultados_busqueda:
