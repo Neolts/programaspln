@@ -1,0 +1,141 @@
+  
+  
+Facultad de Computación Inteligente  
+   
+Escalamiento de Redes  
+Maestro: Oswaldo Carrillo Zepeda  
+Alumno: Cristopher Alejandro Herrera Delgado 5to 
+Semestre Grupo B  
+  
+  
+  
+  
+  
+  
+31/Agosto/2023  
+ 
+ 
+ 
+Resumen de Temas  
+1.1.1.1  
+ A medida que las empresas crecen y evolucionan, contratan más empleados, abren 
+sucursales y se expanden a los mercados globales. Estos cambios afectan 
+directamente los requisitos de la red. Un entorno comercial de gran tamaño que 
+cuenta con muchos usuario s, ubicaciones y sistemas se conoce como “empresa”. La 
+red que se utiliza para respaldar las actividades comerciales de la empresa se 
+denomina red empresarial.  
+Todas las redes empresariales deben cumplir los siguientes requisitos:  
+* Admitir aplicaciones fundamentales.  
+* Admitir el tráfico de redes convergentes.  
+* Admitir las diversas necesidades comerciales.  
+* Proporcionar un control administrativo centralizado.  
+ 
+1.1.1.2  
+Las interrupciones que se producen en las redes empresariales impiden que las 
+empresas lleven a cabo sus actividades normales, lo que puede provocar pérdidas 
+de ganancias, de clientes, de datos y de oportunidades.  
+Para alcanzar este nivel de confiabilidad, se suelen instalar equipos de tecnología 
+avanzada de clase empresarial en la red empresarial.   
+Los equipos de alta tecnología están diseñados para ser confiables, con 
+características como fuentes de alimentación redundantes y capacidad de migración 
+en caso de fallos.  
+  1.1.1.3  
+Para optimizar el ancho de banda en una red empresarial, la red debe estar 
+organizada para que el tráfico se mantenga en el nivel local y no se propague 
+innecesariamente a otras partes de la red.  
+El modelo se divide la funcionalidad de la red en tres capas diferentes.  
+* Capa de acceso  
+* Capa de distribución  
+* Capa de núcleo  
+La capa de acceso proporciona conectividad a los usuarios. La capa de distribución 
+se utiliza para enviar el tráfico de una red local a otra. Por último, la capa de núcleo 
+representa una capa troncal de alta velocidad entre las redes dispersas.   
+ 
+1.1.1.4  
+La arquitectura empresarial de Cisco divide la red en componentes funcionales, al 
+tiempo que mantiene las capas de núcleo, de distribución y de acceso.  
+Los principales módulos de la arquitectura empresarial de Cisco incluyen lo siguiente:  
+* Campus empresarial  
+El módulo de campus empresarial está compuesto por toda la infraestructura del 
+campus e incluye las capas de acceso, de distribución y de núcleo.   
+El campus empresarial puede incluir otros submódulos, como los siguientes:  
+-- Módulo de centro de datos y granja de servidores:  esta área proporciona 
+conectividad de alta velocidad y protección para los servidores.   
+-- Módulo de servicios:  esta área proporciona acceso a todos los servicios, como los 
+servicios de telefonía IP, los servicios de controlador inalámbrico y los servicios 
+unificados.  
+* Perímetro empresarial  
+El módulo de perímetro empresarial está compuesto por los módulos de Internet, VPN 
+y WAN que conectan la empresa a la red del proveedor de servicios.  
+* Perímetro del proveedor de servicios  
+El módulo de perímetro del proveedor de servicios proporciona servicios de Internet, 
+de red pública de telefonía conmutada (PSTN) y WAN.  
+ 1.1.1.5  
+Un dominio de fallas es el área de la red que se ve afectada cuando un dispositivo o 
+un servicio de red esenciales experimentan problemas.  La función del dispositivo que 
+inicialmente falla determina el impacto del dominio de fallas. Por ejemplo, un switch 
+que funciona mal en un segmento de red normalmente afecta solo a los hosts de ese 
+segmento. Sin embargo, si la falla se presenta en el rout er que conecta este segmento 
+con otros segmentos, el impacto es mucho mayor.  
+El uso de enlaces redundantes y equipos confiables de alta tecnología minimizan las 
+posibilidades de interrupciones de los servicios de la red.   
+Limitación del tamaño de los dominios de fallas  
+Dado que una falla en la capa de núcleo de una red puede tener un gran impacto, el 
+diseñador de red suele enfocarse en los esfuerzos para prevenir fallas.  
+Implementación de un bloque de switches  
+Los routers, o los switches multicapa, generalmente se implementan de a pares, y los 
+switches de capa de acceso se dividen en partes iguales entre ellos.  
+1.1.1. 6 
+ 
+ 
+ 
+ 
+ 
+1.2.2.1  
+El routing es necesario en la capa de distribución de una red empresarial. Sin el 
+proceso de routing, los paquetes no pueden salir de la red local.  
+Los routers cumplen un papel muy importante en la red, ya que interconectan 
+múltiples sitios dentro de la red empresarial, lo que proporciona rutas redundantes y 
+conecta los ISP en Internet. Los routers también pueden actuar como traductores 
+entre los dife rentes tipos de medios y protocolos.  
+Los routers usan la parte de la red de la dirección IP de destino para enrutar paquetes 
+hacia el destino correcto.  
+Los routers también cumplen otras funciones útiles  como : 
+* Ofrece r contención de difusión  
+* Conecta r ubicaciones remotas  
+* Agrupa r a los usuarios lógicamente de acuerdo con la aplicación o el departamento  
+* Proporciona r seguridad mejorada  
+  Escalamiento de Redes  
+En una estrategia de diseño básico de red, se incluyen las siguientes 
+recomendaciones:  
+* Utilice equipo modular expansible  o de dispositivos agrupados que puedan 
+actualizarse fácilmente para incrementar las capacidades. Se pueden agregar 
+módulos de dispositivos a los equipos existentes para admitir nuevos dispositivos y 
+características sin necesidad de actualizaciones de equip os a gran escala. Algunos 
+dispositivos se pueden integrar en un clúster para que funcionen como un solo 
+dispositivo, a fin de simplificar la administración y la configuración.  
+* Diseñe la red jerárquica  para que incluya módulos que se puedan agregar, actualizar 
+y modificar según sea necesario, sin afectar el diseño de otras áreas funcionales de 
+la red. Por ejemplo, cree una capa de acceso independiente que se pueda expandir 
+sin afectar las capas de distri bución y de núcleo de la red de campus.  
+* Cree una estrategia de direcciones IPv4 o IPv6 que sea jerárquica . Si el 
+direccionamiento IPv4 se planifica meticulosamente, se evita la necesidad de volver 
+a direccionar la red para admitir usuarios y servicios adicionales.  
+* Elija routers o switches de capas múltiples  para limitar la difusión y filtrar otro tipo 
+de tráfico no deseado en la red. Utilice dispositivos de capa 3 para filtrar y reducir el 
+tráfico al núcleo de la red.  
+En el diseño de red jerárquico, es posible que algunos enlaces entre los switches de 
+acceso y distribución necesiten procesar una mayor cantidad de tráfico que otros 
+enlaces. A medida que el tráfico de varios enlaces converge en un único enlace de 
+salida, es posible que en dicho enlace se produzca un  cuello de botella . 
+La agregación de enlaces permite que el administrador aumente el ancho de banda 
+entre los dispositivos mediante la creación de un enlace lógico compuesto de varios 
+enlaces físicos. Como se muestra en la Imagen 3, EtherChannel es una forma de 
+agregación de enlaces que se utiliza en las redes conmutadas.  
+La red debe estar diseñada para poder  expandir el acceso a la red para las personas 
+y los dispositivos , según sea necesario. Para la extensión de la conectividad de la 
+capa de acceso, cada vez es más importante la  conectividad inalámbrica .  
+Referencia  
+- Walton, A. (2018, 15 febrero). Escalamiento de redes: expansión de la red - CCNA desde cero . 
+CCNA desde Cero. https://ccnadesdecero.es/escalamiento -redes -expansion -de-red/ 
+ 
