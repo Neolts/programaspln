@@ -12,13 +12,6 @@ def convertir_word_a_txt(archivo_word, archivo_txt):
     except Exception as e:
         print(f"Error al convertir el archivo: {e}")
 
-# Rutas de los archivos
-archivo_word = " invest23_.docx"
-archivo_txt = "texto_docx5.txt"
-
-# Convertir archivo Word a archivo de texto
-convertir_word_a_txt(archivo_word, archivo_txt)
-
 def contar_palabras_y_lineas(archivo_txt):
     try:
         with open(archivo_txt, "r", encoding="utf-8") as archivo:
@@ -31,11 +24,27 @@ def contar_palabras_y_lineas(archivo_txt):
         print(f"Número de líneas: {num_lineas}")
     except Exception as e:
         print(f"Error al contar palabras y líneas: {e}")
+
+def obtener_direccion_archivo():
+    while True:
+        direccion_archivo = input("Por favor, introduce la dirección del archivo Word: ")
+        if os.path.exists(direccion_archivo):
+            return direccion_archivo
+        else:
+            print("El archivo no existe. Por favor, introduce una dirección válida.")
+
+# Obtener la dirección del archivo Word
+archivo_word = obtener_direccion_archivo()
+archivo_txt = "texto_docx5.txt"
+
+# Convertir archivo Word a archivo de texto
+convertir_word_a_txt(archivo_word, archivo_txt)
+
+# Contar palabras y líneas en el archivo de texto
 contar_palabras_y_lineas(archivo_txt)
 
 # Cargar el texto del archivo
-archivo_nombre = "texto_docx1.txt"
-with open(archivo_nombre, "r", encoding="utf-8") as archivo:
+with open(archivo_txt, "r", encoding="utf-8") as archivo:
     texto = archivo.read()
 
 print("----------------------------------------------------------------------")
@@ -60,5 +69,5 @@ print("Número de tokens limpios:", len(tokens_limpios))
 texto_limpio_nltk = nltk.Text(tokens_limpios)
 distribucion_limpia = nltk.FreqDist(texto_limpio_nltk)
 
-# Graficar las 40 palabras más comunes
+# Graficar las 20 palabras más comunes
 distribucion_limpia.plot(20)
