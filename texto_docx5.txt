@@ -1,0 +1,43 @@
+Facultad de Computación Inteligente
+
+
+
+
+
+Procesamiento de Lenguaje Natural
+
+Maestro: Oswaldo Carrillo Zepeda
+
+Alumno: Cristopher Alejandro Herrera Delgado
+
+6to Semestre Grupo B
+
+
+
+
+
+
+
+
+
+
+
+
+
+11/Marzo/2024
+
+Nivel Fonético en el Proceso de Lenguaje Natural
+
+¿En que consiste?
+
+Para poder hablar acerca de que forma se relaciona la fonética con el PLN es importante primero conocer que estudia. La fonética se encarga del estudio de los sonidos del habla, su realización física y de sus características.
+
+Se enfoca en los movimientos en aspectos como la articulación de los sonidos, su transmisión y como se captan por el sistema auditivo humano. También analiza las propiedades acústicas de los sonidos, como la frecuencia, intensidad y duración.
+
+ ¿Cómo se relaciona con PLN?
+
+Yo entiendo que, debido a que necesitas traducir comandos o instrucciones a la computadora es necesario tener un nivel de comprensión humano-computadora y viceversa. Originalmente usamos comandos escritos para esta función, pero con el paso del tiempo buscamos maneras mas practicas y eficientes para dar a conocer las instrucciones y una de esas formas es a través de la voz, para esto es necesario que la computadora o IA sepa distinguir dialectos, idioma, estereotipos, etc. 
+
+Ejemplo:
+
+Un ejemplo sencillo de esto es la IA Alexa.f
